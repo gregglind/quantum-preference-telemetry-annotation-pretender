@@ -1,15 +1,22 @@
 {
-  "name": "quantum-preference-telemetry-annotation-pretender",
+  "title": " setExperimentActive Testing",
+  "name": "telemetryEnvironment-setExperimentActive-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Try adding and unadding experiments to the Telemetry Enviroment",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Gregg Lind <glind@mozilla.com>",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jpm": "^1.3.0"
+  "license": "MIT",
+  "keywords": [
+    "jetpack",
+    "firefox",
+    "telemetry"
+  ],
+  "scripts": {
+    "build": "jpm xpi",
+    "sign":  "jpm sign"
   }
 }
