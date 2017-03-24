@@ -5,7 +5,7 @@ Addon to demontrate and test usage of `TelemetryEnvironment.setExperimentActive`
 
 ## TO use:
 
-1.  **With an existing profile** Gregg will try to post every build of this to:  https://people.mozilla.com/~glind/all/telemetryenvironment-setexperimentactive-demo.xpi
+1.  **With an existing profile** Gregg will try to post every build of this to:  https://people.mozilla.com/~glind/all/setexperimentactive_testing-1.0.0-an+fx.xpi
 
 OR
 

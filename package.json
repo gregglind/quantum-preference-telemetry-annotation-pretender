@@ -1,6 +1,6 @@
 {
   "title": " setExperimentActive Testing",
-  "name": "telemetryEnvironment-setExperimentActive-demo",
+  "name": "telemetryenvironment-setexperimentactive-demo",
   "version": "1.0.0",
   "description": "Try adding and unadding experiments to the Telemetry Enviroment",
   "main": "index.js",
@@ -17,6 +17,6 @@
   ],
   "scripts": {
     "build": "jpm xpi",
-    "sign":  "jpm sign"
+    "sign":  "jpm sign --api-key $(< ~/jwt_issuer) --api-secret $(< ~/jwt_secret)"
   }
 }
